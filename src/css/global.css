@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+button{
+    background-color: #FB545C !important;
+    border: 0;
+}
+.btnGroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-card-head{
+    background-color: transparent;
+    border: 0;
+}
+.modal-card-body ul{
+    padding: 0 10px;
+    margin: 0;
+}
+.modal-card-head{
+    background-color: transparent;
+    border: 0;
+}
+.modal-card-body{
+    padding: 0;
+    background-color: black;
+}
+@media only screen and (max-width: 1000px) {
+    .content h2{
+      font-size: 16px;
+    }
+    .cardQuestion, .modal-card{
+        width: 100%;
+        border: 0;
+    }
+    body{
+        border: 3px solid #FB545C;
+        border-radius: 20px;
+    }
+    .App .card{
+        border: 0;
+    }
+    .modal-card-body ul{
+        padding: 0;
+    }
+
+}
+@media only screen and (max-width: 580px) {
+    .btnGroup button{
+        box-sizing: border-box;
+        width: 120px;
+        font-size: 11px;
+    }
+    .content h1 {
+        font-size: 1.5rem;
+    }
+}

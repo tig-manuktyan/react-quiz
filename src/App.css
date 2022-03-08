@@ -1,0 +1,69 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+h1,
+p,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: rgb(175, 175, 175) !important;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+.cardQuestion,.modal-card{
+  /* max-width: 500px; */
+  width: 60%;
+  /* padding: 20px; */
+  text-align: center;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid #FB545C;
+}
+
+.modal-card-head,.modal-card-body{
+  background-color: black;
+}
+.App .card {
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid #FB545C;
+}
+/* .cardQuestion .card-content{
+  display: flex;
+} */
+label.radio {
+  display: block;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+label.radio+.radio {
+  margin-left: 0;
+}
+
+label.radio input {
+  margin-right: 10px;
+}
+.quizUImages{
+  width: 200px;
+}
+li{
+  list-style-type: none;
+}
+.imageQuestion{
+  width: 50%;
+  height: auto;
+}

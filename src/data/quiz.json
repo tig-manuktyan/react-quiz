@@ -1,0 +1,97 @@
+{
+  "data": [
+    {
+      "question": "Где правильно выведен компонент через рендер",
+      "image": "https://miro.medium.com/max/1400/1*s8ACA47HFhBjoqO5QTUxBA.png",
+      "options": [
+        "<Test>",
+        "</Test>",
+        "<Test >",
+        "<Test />"
+      ],
+      "type": true,
+      "test": "<Test />"
+    },
+    {
+      "question": "Какой метод отвечает за вывод информации?",
+      "image": "./",
+      "options": [
+        "ReactDOM",
+        "react",
+        "renderer",
+        "render"
+      ],
+      "type": false,
+      "test": "render"
+    },
+    {
+      "question": "React JS это...",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEg3mMpLWo687RGslGWGK55byglXmt6HSAaA&usqp=CAU",
+      "options": [
+        "MVC-фреймворк",
+        "фреймворк",
+        "JavaScript библиотека"
+      ],
+      "type": true,
+      "test": "JavaScript библиотека"
+    },
+    {
+      "question": "Где правильно создан компонент?",
+      "image": "./",
+      "options": [
+        "var Test = createClass ({});",
+        "var Test = React.createClass ();",
+        "var Test = React.create ({});",
+        "var Test = React.createClass ({});"
+      ],
+      "type": false,
+      "test": "var Test = React.createClass ({});"
+    },
+    {
+      "question": "Как много компонентов может быть на сайте?",
+      "image": "./",
+      "options": [
+        "Не более 10",
+        "Не более 100",
+        "Не более 300",
+        "Неограниченное количество"
+      ],
+      "type": false,
+      "test": "Неограниченное количество"
+    },
+    {
+      "question": "Какая компания разработала React JS?",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRiOt-tSgB7S_wGPZX1QvKVlCRslQgMQ_ckw&usqp=CAU",
+      "options": [
+        "Twitter",
+        "GitHub",
+        "Amazon ",
+        "Facebook"
+      ],
+      "type": true,
+      "test": "Facebook"
+    },
+    {
+      "question": "Можно ли писать не используя Babel?",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAABC1BMVEUyMzD53D4AAAD/4z/83z8xMjD/5ED/4T//5kEtLzAoKzAsLjAmKjD/50EzNTEhJi8dIy8AABUAAAUUHS8AAA7u0jsOGS8iJy/dwzcAAAzqzz3FrjEYIC8SHC/XvjUqKymrlypcVjKQgja7pS5APzG+qTnr0DrPtzOejjfiyDhUTzKSgSOciiZGRDGwnTjPuDptYBqAdDSLeyIWEwAdICasmji1oC0UFx0gIiQ5OTBmXjN3bTRYUjLFrzptZDN5bzRUTCJeUxZGPg5+bx8AABtTSRMAEy8uKAYVFhaWhzcIDxweGgA9NgwxKwl7biYwLRhFPyAAACBbUBQ5MgoAACUuKx4eHhkgHQtgViXi4TaVAAAQqklEQVR4nO1cfV/ayBolk5lMEhKIQCBCCC8RQgQh0IKoRatorVRtq7e7/f6f5M5MEgyK3dtu28W7c/rH+ssLYU7O88x5nhk2leLg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4ODg4OB4KUBKOq2q6X/6a2wsECFI1UpZw7bzRWXv8KjZHL40thB5w2o6jX7pQ9SSYRzsUII6/dbAakNRFPUvtWntlz7150LRjKraOGkOjw938nlD+9mMKUpayxp5o3g0bvlli1KEMYZQIIAQ6kP1Jz/wVwFpRrHRmZXFCNifNRVD+eY93xU1imEfvjls9gdlXZZlEwqMIwYoSnq5bAE3/7eG8JuAtHymORMk/DAAAWJdnx0Y31CXcfJUCYqatfN5286WViM5nT1siTKTklcfVSZe4knYDc4AqOcC83jjkxZl6sqRxMTXZ/B7E0tuKc+GRrYprCoPqUZxb9gfkAgbtDrHduJs+qTZl9wKjF4D+UeFRQIQYiz7fnPxn/KgMLh9+20l/+NAhtH0njJFx2T2tgF528b6G5U9DM29pXyQahvDlimLJAcREA7k2c6DLtOfP0pw+RDoYGj5bc9tu6MRAGA7fagHt/3F/q8f79+BWmrhdUyF8SEPjj/qw9K6G1HRh4L8KZJC2rCHAxJjCaqtUc+ZLa1T6UhPnBNhBToVx+12g7d/TFOZTHYsWNDbbOuAqscCXqGHJhVRkuVIa1AUBGl3XXBUW+SUngs/xm604GPKIXavQXs3HL+9W4ZLpuTKvN4Nzgq53GKxH9oF2yKy0282OQpL6Zm+Mj6zd3rq9oKLy1dncwczGrEAB2sCsXRC7oTtQob8rdp9HS+pkAjZBOQAlH1TUGkkZlt6xBUWnACAwtYWYSmTiT9NHbbI9WYu8/RBGwKl2FyVlSCA7f0pG0dt+nrLm9PB9bAgfX4yJSo79E7onZM/q8fm8mOgdfuqPr/4AM56osiUOmZB/M4Mz4s9wlSNxN0qLaWmRXK9e/6bRv79UBq+HL/t6L/1LTqGaBzKYe4jJmQ5cJmZlkBVFlW4vkgpuwOmzlA5GGxNF4vXtZr6eXQHoeNih3mnYsSlD2qZp/JBqE/DPXj9i4f840CZz9TskKxU98OhyK9Wyg2lZpO5Hg6g9ISsIk1YRCdBKaW8mZGLJNNh7E0KSyq0rR7GLWx9pn83xTDM7/bXRZp21YKU6F8wyp+E7F6ZSEpqj8CZGL72yvbqSLR3PmVTkLcf39oMNSlfIqXYF6FkBYBJTf6QoPsdyUMQepSsd+wsiVGwNisZHYk+fmtTUxYqDsn0JZpzsB2FiCCfTVcu0TqhHgThEYnp3ei4kNP2fFEsB6AwlBjdiRRdHMSRmlJP6FlBP9tafUIEZY9yublRmM7OZBKBPbBdy1St0CU4j1570ZFCxTlbK8eRakZOvLI1hBL5kEJN61D+5IsHMrTQWIlzQkGRPQFW5ut9VGnMyN/QKCS+yNdJ8FySdJtCBzIbuxys+mftKM7/vcXKiaKD4wmhXx659/RDiuUKDbMHupVUJFeAUulj9kn6/f76FkzRZOluM6NQOWi18NzpAcZOqSPXaWoywaOLYhcpn60IIj+OgxBPzE+5c/oh6YbepoG0pDtt++x27JKMX3RCYT0jnfShtCYJbAjQjiWUX+XOqSJS9L1COhhxtKIfxYgtN5nuk688O1z6WAw+FcKDBvWUwgPdWqMcOto2qBEyImE9w4YxC9/VRgorPTx2wPvYT6WPpdAjgaTz1DJW7L70u2R4qg0xNlUkl0XDR6pYJsKaL6LxlnbDK0QHEKtQZZkeepQNFEJJp9Moeh7SxDWxvjFI779/v3yN9gAnDGmE0vGy0pNHyehRDtjFFT+c6GJyOkJbgOWIbpQ/DvsLkgvIc9INJizp7Nw2jFJWU5WDnd3D46O9qGOhXbG54XJji+gHESk7cpvJJGlIiTIiQBwkFYfschgydHoTAy06XDRdSLVBuUOa3Q9nUbkHpuRIfhDybprlctkkuVwmlaMo64Oox1BkH2ltcF24RHYsW1QlowfrjezjZVksnOWSVxdn9Ix4v0XFoseSU48wIVw+VWlTKzMsh25dCFhSVHZl4SmgN5qfMLLCjCbON7yVRYFs6FJlSQ/6UapjKc7g7Q+F5NXMaQvyPEfdKvRjfqtOmc0DqGQfDaLuGHbANvvI/Gxtt6ztnodGwmbnIfi1y0k/BVpTdlgURANHaXvXj62BZIGVUi79RmIJCxh9TI1D1CRQdnUahd3zTKctxVOoUz/PhCcfC4u1UUVJ6LMgRgfik4y5qSiWzbIQFSVkZFnjsB+ndoh74H1yCKjkhwmrxmpG5s0piG+gx70WfGj4wIlwZdOT9izZPaXrXr5XqXeDG5BjwiqN6fmVmnJTkT7Ww24BSe9Ize+NTWmZrsybyIhFQHnm3MWzLZsVgvKHaPJLs1t8P0EVK7+PNVr2RSUT7QhCq3f/inbcacsMhZ/N3PtKTbmxyA/aVFjQ3UYl48RJ9NCh/qqweq3dZw7L+rN5FcZpLiSr1MExQ5R2Cov9Ke4pkVsVsDcJzs4ITVNltfMXund9Y2voBJQd3WJROPpPpmNKiUwMJxO3uHKt1gg5qY9b7ZAWK8PYqppLPUHZrI9GXdeibgG6AwOpOFQpKBSm01rqiX5seiWub2gNvYJsP1xVhdYMPmowC64+TqwPI2M3dkvLhdhLNturw2g+wD50T0FusVhsMRuGA68aNiNI0bhY0x+lH8s8LnwJGQsZ0bBN8zFVLOk0jeWFO52HEyFZ0nXY5SqyilkSTTcAYMGyXIbNltCrLyLVmc8q552wpum4kdCi5AM9f5WoiDrpkK5Gp1XjwHGiKwlT3koPIaqSLy4pU1GYoTy7WL8zQtXh7nN1n0LNSLILtrkoLhsLsWgwXcQSzXl8WLON4tHJ2IrXkn3XL1fYIjzuhpabFTO4V6ihB3Vk2UsgLjUftRWfdZw0/1M3+xsG+zehHsVOPZzssejNT8+uT7uWz5QGXdMqz3woxllKqrj1ryB3Gha+bBFD2WPCWhluaY9dr18s3rCTuF54JswUm7aTX0Klk6o+7GSBVlv2e5dg6/V0Ol0UguiwT3ctPPDZuy8U9msatQqwHDojZg3EbtJ/54chs3VghIb0WcepHNIwNV+CsJaFCISi6I/PQC42ipliJY5PKCzZgtEFRjjbszSEMuIjYaGoshQroIbCivp5x1mkr8v88gLIskO/CEkiml+C7deJpFON+fEmXtkJ/5aDSD5sMUi+YzuRsv1Hwkprg9AseGBaCn2DfPGc41R2ZFo1PVcWbhCHkSigBYg3mqLkF15aJ1gPbi+22ewnxsYx3WDKAWHvarXHStxYaELkCZhmqgKrDsrP9osNUhfCyvwRl2zjcilrZHc2h63sOBzW6X7qsWEMrRM5dwv2Xy/YNEA4jRIPq3yhy1bHmHYehJW2O6wKh9KclJXqUKcLIXj0nG9ACs3+5eWSD0KKmjXy6u7hSXPcms2aJVXNoE1gLDKk0HnqF+3YfpE5PYOy4d+vphEjjEmRFXP0HFwKi66vhYv6/jUtwauW38XLTlm8j5vCNjQaxJRq8hIWCtER3eCNDhps22ClNb66vT0a3e0Mm42dTdBXZEjli8fzNqqeREEoXe/T8pkKUA/i2T+cFkTGQOlKhBUpFBbKKi2R1kyQTIP77EJ9Tngl9tyw89Wi0jg6anZaRDCDgeWMrzSkHhwTsry3bxrNcb8/c+jGLRFa5sCvjEczQRTL/VbH3tnbALJYa2SNsBRjFrkveZSLVxvwZHkZ6zFAj3KHbHqGOU5UUscCJjyNZPMi7Oxk+6JHefZnA4u23qVwH7dokvkkt/WxttPQWUBHxzExu67n0YUP6vjYTktZdhepDSgboxz+RFjaTtwnleuUBba1CLbB8iuHbYIRvY2GkaUTYSHNuBJEKDkXdd0DYWcn+y4uDBJWjfiEiuNapgB1rLcCa6XhzLaisj4qxFgSfL97C8AGUBXn8CfCso/j0ofMZ+SLZtnsL90vu8soyxqbTE1G6L6UktE0ZSi25z2sj0CY27LjRA2VZItJxnfd7u0NiA5RXVF5sW9kepNJpT46u7472/6jtgEhmFruPlgVFip24gKI6IoEk7LDuBo9uEqmSGjRNgGbCklViDqEKlcYjaDuRyGY0jrLZWvo1iveUmOUF90FucLWYrpnyibFpNcbBae3xNLJkum53dMv26yS2IiJMJWKdx+sCkvTBjFXUpeNml2GvYRBZ0vtrIuASkwV8xbUBa/Su7VE9xrEG7mQOl+2py2HLlCIpD63KpVJbzQ/o7v/MsTovT0FANxc3L1dLP4YNXu92+tXtOe8vxmCihH1VVa8NSqexK0ZKJyyZKENwyo50UFh9l2nRbQR+jSSsbuVkQv1dg/sP/TsjZnMgk+WhbZfmXTnpzeAdt+JovaXP2dK76snJ4dv9jLEEr9eLIjYCE3ru4T/IKLdB4kdQqlS5kFWziumEJRmzJwmegasyQD9HNUF5UryZDP4c4DHwQeQSy5vKLt1z4LQvKQLFLmQIqKXxxtvCV/TaSykTWMphEJbJyap75bCShebzCOxfDyPVsCqM7ziGlLUneFoD4fdIhkZd2+DwDI7AOyvFkzkGYvCtR+MtkKKfs+4fglYw24kLnf6pauHFs3bmKQo0foQJ2k6CSRdA4HtsL39NWo5nbkDQdeffc1t19axoV6dutsblX1+BNSEQ8+LtxIp+YZDF3Zk676C5WiHG20JsPr5PrkmjVQROmy/lu3rk0BvuycLsI/WC0dpfBy/hHXmb4MJy8cWiy/F3ptRqrAZXJZl4WK5sJpnm2JHK70oYhzEkUyiEB1Mbs70Ckjm9CcwWl82wlP+HZAIIpIp03YDoWqnRVdWMe7dVGTZA8u4YRMmrqx2MY2Z6Lk0ClNosdjVL6ffEg5SZ8+1k18OoqnQB6k0owoLUJ7cuzINwYe9DXRJkW5rSN6J8iT7C9GuyWq59+0VLO3q60tYtfkmlDfMXEvBebExo1TVTe+mJ0ly+y65tyFzLPjwevX3EOqJKN/p4bqWOrT+oneeHbx8YRXD2qMNriz6K9+67326MLEzuQOrexuK5cv5o+a5TaJwrn9gyzraOPcXulEa73/uN//9iMw7bYNgyaxU6kHPlCXYfZKqlcX7/VXpkCIazyvxfkbt/V/pZrOqlh9B+GMHwfQgtAIwuHV0XXS6ADye1ZRG4/Gvm8hcKL+SRi9hle/nQGVbqwTcFiQ8+fR1oFvBJQCFNRGFnhwzZti81l/CKt/PAcqb7LepXlC/BSNT9y4IUet+AbgORUHs1SsvP2v/r8h2REnoYglsfZnoQu/PZ+33GihvJPlaeBGbOH4KEILSxUUgwvoMty4Amc++Qya02XcvbOaPRn4FjJmse11TKte/bn+zUll786A8nzy7eej/D4bVvTk1pS7IfS9TKZqyyhfjf096T6XOc9PPgvnEJ/wvQDvlIKf+pbn6f0KmdKWfLn5oxOi88OKbCN8HlNHdH94a/G9SFUVpbG7GwuVLgC18WPt/VuB4CnTw9iVso94U/GsMOAcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHx3fjv502laxpznYdAAAAAElFTkSuQmCC",
+      "options": [
+        "Нет, нельзя",
+        "Да, можно"
+      ],
+      "type": true,
+      "test": "Да, можно"
+    },
+    {
+      "question": "Сколько родительских элементов можно вывести одновременно?",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcResRyUuIUfVmhhFBZoZewsngXP3VtBCXs4wA&usqp=CAU",
+      "options": [
+        "Не более 3",
+        "Не более 5",
+        "Не более 10",
+        "Не более 1"
+      ],
+      "type": true,
+      "test": "Не более 1"
+    }
+  ]
+}
